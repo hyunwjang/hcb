@@ -1,0 +1,19 @@
+div{
+    color : red;
+}
+.hello{
+    color : gray;
+}
+#hi{
+    color : blue;
+}
+ul .orange{
+    color : orange;
+}
+
+.orange ~ li{
+    color :aquamarine;
+}
+.orange + li{
+    color : yellow;
+}
