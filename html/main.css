@@ -1,12 +1,13 @@
-div{
+/* div{
     color : red;
-}
+} */
 .hello{
     color : gray;
 }
 #hi{
     color : blue;
-}
+ }
+ /* id */
 ul .orange{
     color : orange;
 }
@@ -14,6 +15,45 @@ ul .orange{
 .orange ~ li{
     color :aquamarine;
 }
+
 .orange + li{
     color : yellow;
+}
+a:hover{
+    color :red;
+}
+/* 마우스 커서가 올라갔을때 */
+a:active{
+    color : rgb(43, 19, 65);
+}
+/* 마우스를 누루고 있을때 */
+
+input:focus{
+    background-color: orange;
+}
+
+
+
+.fruits :first-child{
+    color : black;
+}
+.fruits :last-child{
+    color : blue;
+}
+
+.fruits *:nth-child(2n+1){
+    color : orange;
+}
+.box::before{
+    content : "앞"
+}
+.box::after{
+    content : "뒤"
+}
+[type]{
+    color : black;
+}
+[type="text"]{
+    background-color: gray;
+    /* color :brown */
 }

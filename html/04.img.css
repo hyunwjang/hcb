@@ -1,0 +1,12 @@
+/* <!-- https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png --> */
+
+.container .item {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    margin:10px;
+    background-image:url("https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
